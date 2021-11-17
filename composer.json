@@ -1,0 +1,21 @@
+{
+    "name": "jorge/usuarios",
+    "description": "Usuarios Preconstruidos para Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "guez",
+            "email": "guez_95ii@hotmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "jorge\\usuarios\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
